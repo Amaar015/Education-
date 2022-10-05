@@ -1,0 +1,9 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+}
+.course{
+                    /* margin-top:5rem; */
+                    background:#ebf4f5;
+}
