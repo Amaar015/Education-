@@ -5,6 +5,7 @@ import User from "./components/User/User";
 import Online from "./components/online/Online";
 import Course from "./components/Course/Course";
 import Team from "./components/Team/Team";
+import Blog from "./components/Blog/Blog";
 function App() {
   return (
 <>
@@ -15,6 +16,7 @@ function App() {
 <Online/>
 <Course/>
 <Team/>
+<Blog/>
 
 </>
 

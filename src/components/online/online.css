@@ -11,7 +11,7 @@
 }
 
 .online p,.course p,
-#team p
+#team p ,.blog p
 {
                     color: #1eb2ab;
                     font-size: 20px;
@@ -21,7 +21,10 @@
 
 .online h2.online_heading,
 .course h2.online_heading,
-#team h2.online_heading{
+#team h2.online_heading,
+.blog h2.blog_heading
+{
+
                     margin-top: 10px;
                     font-size: 30px;
                     margin-left: 30%;
