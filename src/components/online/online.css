@@ -10,7 +10,9 @@
                     background: #ebf4f5;
 }
 
-.online p,.course p{
+.online p,.course p,
+#team p
+{
                     color: #1eb2ab;
                     font-size: 20px;
                     margin-left: 45%;
@@ -18,7 +20,8 @@
 }
 
 .online h2.online_heading,
-.course h2.online_heading{
+.course h2.online_heading,
+#team h2.online_heading{
                     margin-top: 10px;
                     font-size: 30px;
                     margin-left: 30%;
