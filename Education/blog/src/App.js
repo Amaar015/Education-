@@ -6,6 +6,9 @@ import Online from "./components/online/Online";
 import Course from "./components/Course/Course";
 import Team from "./components/Team/Team";
 import Blog from "./components/Blog/Blog";
+import Package from "./components/Plan/Package";
+import News from "./components/News/News";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
 <>
@@ -17,6 +20,9 @@ function App() {
 <Course/>
 <Team/>
 <Blog/>
+<Package/>
+<News/>
+<Footer/>
 
 </>
 
