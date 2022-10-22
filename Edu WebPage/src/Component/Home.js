@@ -37,7 +37,7 @@ const Home = () => {
        <User/>
         <Course/>
         <Online/>
-        <Team/> 
+        {/* <Team/>  */}
          <Blog/>
          <Price/>
          <News/>
