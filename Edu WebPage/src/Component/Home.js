@@ -3,7 +3,7 @@ import './../App.css';
 import {AiOutlineArrowRight} from 'react-icons/ai';
 import Navbar from './Navbar';
 import Header from './Home/Header';
-import About from './Home/About';
+import Abouts from './Home/Abouts';
 import User from './Home/User';
 import Course from './Home/Course';
 import Online from './Home/Online';
@@ -33,7 +33,7 @@ const Home = () => {
                                         </div>
                                         
                     </div>
-      <About/>
+      <Abouts/>
        <User/>
         <Course/>
         <Online/>

@@ -1,10 +1,10 @@
 import React from "react";
 // import Navbar from "./Component/Navbar";
 import Home from "./Component/Home";
-import Course from "./Component/Course";
+import Courses from './Component/Courses';
 import About from "./Component/About";
 import Team from "./Component/Team";
-import Price from "./Component/Price";
+import Price from "./Component/Prices";
 import Journal from "./Component/Journal";
 import Contact from "./Component/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
   {/* <Route path="/" element={<Navbar/>}> */}
       
   <Route index element={<Home />} />
-     <Route path="course"  element={<Course/>}/>
+     <Route path="course"  element={<Courses/>}/>
      <Route path="about"  element={<About/>} />
      <Route path="team"  element={<Team/>}/>
      <Route path="price"  element= {<Price/>}/>

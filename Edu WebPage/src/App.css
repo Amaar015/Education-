@@ -382,8 +382,9 @@ margin-top: 8px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;  
-    height: 100%;
-    margin-top: 4rem; 
+    width: 100%;
+    padding:2rem 4rem; 
+    /* padding-bottom: 2rem; */
 }
 
 .Online_course .online_course_article
@@ -472,14 +473,13 @@ box-shadow: none;
     background:#ebf4f5;
 }
 
-
 .course_main{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;  
 height: 100%;
 margin-top: 4rem; 
-/* width: 1300px; */
+padding-bottom:4rem;
 }
 .course_container{
 
@@ -1337,8 +1337,13 @@ margin:0 10rem;
       width: 200px;
       margin-left: 14rem;
     }
+    .allcourse .container .home_content{
+        color: white;
+         padding:8rem 5%;
+          width: 80%;
+           
   }
-
+}
 
   @media(max-width:425px){
     .row{
@@ -1519,33 +1524,306 @@ width: 270px;
 /* Courses Page Css */
 
 .allcourse{
-    height: 100vh;
     width: 100%;
     background:url('./Component/Images/course.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position:bottom.; */
     background-attachment: fixed; 
 }
 
 
 .allcourse .container .home_content{
      color: white;
-      padding:8rem 10rem;
-       width: 50%;
-       /* background: black; */
+      padding:8rem 5%;
+       width: 40%;
+       
        -webkit-backdrop-filter: blur(5px);
        backdrop-filter: blur(5px);      
 }
 
  .allcourse .container .home_content h2{
-        padding:0 5rem ;
-        font-size: 1.5rem;
+        padding:0 4.5rem ;
+        font-size: 2.5rem;
+        font-weight: lighter;
    
 }
 
-/*
+
+.allcourse .container .home_content h1{
+    font-size: 4rem;
+    width: 30rem;
+    margin:-1rem -1rem;
+}
+.Online_course{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;  
+        width: 100%;
+        padding:0rem 4rem; 
+        padding-bottom: 4rem;
+        background: #ebf4f5;
+    }
+@media(max-width:1024px){
+    
+.Online_course{
+       padding-top: 18rem;
+}
+}
+@media(max-width:973px){
+    
+    .Online_course{
+           padding-top:0rem;
+    }
+}
+@media(max-width:776px){
+    
+    .Online_course{
+           padding-top:18rem;
+    }
+}
+
+@media(max-width:648px){
+ 
+    .Online_course{
+           padding-top:0rem;
+           
+    }
+}
+@media(max-width:690px){
+    .allcourse .container{
+        padding:5rem;
+    }
+    .allcourse .container .home_content{
+        color: white;
+         padding:8rem 5%;
+          width: 80%;
+           
+  }
+}
+
+@media(max-width:664px){
+    .allcourse .container {
+        padding:0rem;
+    }
+    .allcourse .container .home_content{
+         padding:8rem 2%;
+           
+  } 
+}
+@media(max-width:488px){
+    .allcourse .container .home_content{
+        /* padding:8rem 8%; */
+          
+ }
+    .allcourse .container .home_content h2{
+        font-size: 2rem;
+   
+}
+
+
 .allcourse .container .home_content h1{
     font-size: 3rem;
-    width: 30rem;
-} */
+    width: 25rem;
+}
+
+}
+@media(max-width:392px){
+    
+    .allcourse .container .home_content{
+          width: 100%;
+  }
+  .allcourse .container .home_content h2{
+    font-size: 1.5rem;
+
+}
+
+
+.allcourse .container .home_content h1{
+font-size: 2.5rem;
+width: 100%;
+margin-left: 0.7rem;
+} 
+}
+@media (max-width:330px){
+    
+.allcourse .container .home_content h1{
+   
+    margin-left: 0.2rem;
+    } 
+    }
+
+    /* about _all */
+.allabout .about_home{
+    margin-top: 0rem;
+}
+
+/* Member of team section*/
+ 
+.member{
+    display: flex;
+    flex-wrap: wrap;
+    background: #dde5e6;
+    padding:3rem 10rem;
+    gap: 2rem;
+    align-items: center;
+}
+.member_box{
+        flex: 1 1 12rem;
+        text-align: center;
+        height:22rem;
+        background:#fff;
+        box-shadow: 0px 3px 10px rgba(0, 0,0, 0.6);
+        transition: all 0.3s ease;
+        overflow: hidden;
+        
+    }
+.member_box:hover{
+          box-shadow: none;
+          background:#1eb2ab;
+}
+.member_box .image{
+    width: 100%;
+    height: 72%;
+    overflow: hidden;
+}
+.member_box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.member_box .content{
+      padding-top: 1rem;   
+}
+
+.member_box .content h3{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.member_box .content p{
+    color: rgb(108, 104, 104);
+    font-size: 1.1rem;
+    
+}
+
+.member_box .content small{
+    color: rgb(108, 104, 104);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.member_box:hover .content p,
+.member_box:hover .content small{
+    color: #fff;
+}
+
+.member_box .social_link{
+         display: flex;
+         flex-direction: column;
+         position:relative;
+         top: -17rem;
+          left:-3rem;
+         gap: 0.5rem;
+         font-weight: bold;
+         transition:all 0.2s ease-in-out;
+}
+.member_box:hover .social_link{
+     left:0.8rem;
+}
+
+.member_box .social_link small{
+    background: rgba(0, 0,0, 0.8);
+    color: #fff;
+    font-size:1.2rem;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    padding:0.5rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.member_box .social_link small:hover{
+    color: #1eb2ab;
+}
+
+@media screen and (max-width:530px) {
+    .member{
+        padding:3rem 6rem;   
+}
+}
+
+
+@media screen and (max-width:350px) {
+    .member{
+        padding:3rem 4rem;   
+}
+}
+
+@media screen and (max-width:320px) {
+    .member{
+        padding:3rem 2rem;   
+}
+}
+ .Prices .allcourse .container .home_content h1{
+     font-size: 3rem;
+ }
+
+ .Prices .package{
+    padding-top: 2rem;
+ }
+ .Prices .package h2{
+            text-align: center;
+            width: 280px;
+            /* padding-left:1rem; */
+ }
+
+ /* Contact form */
+
+        .contact_container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding:2rem 8rem;
+            justify-content: center;
+        }
+        .map{
+            /* flex: 1 1 30rem; */
+            width: 500px;
+        }
+        .map img{
+            width: 90%;
+            height: 90%;
+        }
+        .map .contact_form{
+            flex: 1 1 30rem;
+        }
+         .text_data h2{
+                 font-size: 2rem;
+        }
+        .text_data p{
+            color: #888888;
+            font-size: 1.2rem;
+        }
+        .text_data_add{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .text_data_add article{
+            width: 150px;
+            padding-top: 1rem;
+        }
+        .text_data_add article h2{
+            font-size: 1.5rem;
+            font-weight:400;
+        }
+        .text_data_add article small{
+            color: #888888;
+            font-size: 1rem;
+        }
+        
+
+     form{
+            display: flex;
+            flex-direction: column;
+        }

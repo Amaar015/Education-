@@ -1,36 +1,32 @@
-import React from 'react';
-import Header from './Home/Header';
+import React from 'react'
 import Navbar from './Navbar';
-import Member from './Member';
-import User from './Home/User';
+import Header from './Home/Header';
+import Price from './Home/Price';
 import News from './Home/News';
 import Footer from './Home/Footer';
-const Team = () => {
+const Prices = () => {
   return (
- <section className='team_all'>
-   <div className='allcourse' > 
+   <section className='Prices'>
+                 <div className='allcourse' > 
   <Header/>
   <Navbar/>
   <div className='container'>
                                         <div className='home_content'>
                                                     <h2>Home/Team</h2>
-                                                    <h1>Our Team</h1>
+                                                    <h1>Chose the right plan</h1>
                                                             
                                         </div>
 
        </div>                                 
                     
                     </div>
-          <div className="team_member">
-                   <Member/>
-                  
-          </div>
-          <User/>
-                   <News/>
-                   <Footer/>
-
- </section>
-    )
+                    
+                    <Price/>
+                    <News/>
+                    <Footer/>
+                     
+   </section>
+  )
 }
 
-export default Team
+export default Prices
