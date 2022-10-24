@@ -1,9 +1,31 @@
 import React from 'react'
 import About from './Images/about.jpg';
+import Header from './Home/Header';
+import Navbar from './Navbar';
+import User from './Home/User';
+import News from './Home/News';
+import Footer from './Home/Footer'
 const Contact = () => {
   return (
     
-    <section className="contact">
+    <>
+            <div className='allcourse' > 
+  <Header/>
+  <Navbar/>
+  <div className='container'>
+                                        <div className='home_content'>
+                                                    <h2>Home/Contact</h2>
+                                                    <h1>Contact Us</h1>
+                                                            
+                                        </div>
+
+       </div>                                 
+                    
+                    </div>
+            
+            
+            
+                  <div className="contact">
             <div className='contact_container'>
               <div className="map">
                         <img src={About} alt="Map_image" />
@@ -32,12 +54,16 @@ const Contact = () => {
                         <input type="text" placeholder='Name' />
                         <input type="emial" placeholder='Email' />
                         <input type="phone" placeholder='Phone no:'/>
-                        <textarea name="message" id="mesg" cols="30" rows="10" placeholder='enter your message'></textarea>
+                        <textarea name="message" id="mesg" cols="30" rows="9" placeholder='enter your message'></textarea>
                        <button type='submit' className='btn'>Send Message</button>
                       </form>
               </div>
             </div>
-    </section>
+            </div>
+            <User/>
+            <News/>
+            <Footer/>
+            </>
   )
 }
 

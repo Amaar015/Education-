@@ -1784,19 +1784,21 @@ margin-left: 0.7rem;
             display: flex;
             flex-wrap: wrap;
             width: 100%;
-            padding:2rem 8rem;
+            padding:2rem 4rem;
+            background: #ebf4f5;
             justify-content: center;
         }
         .map{
-            /* flex: 1 1 30rem; */
-            width: 500px;
+            flex: 1 1 30rem;
+            
         }
         .map img{
             width: 90%;
             height: 90%;
         }
         .map .contact_form{
-            flex: 1 1 30rem;
+            flex: 1 1 20rem;
+            
         }
          .text_data h2{
                  font-size: 2rem;
@@ -1810,20 +1812,64 @@ margin-left: 0.7rem;
             flex-wrap: wrap;
         }
         .text_data_add article{
-            width: 150px;
-            padding-top: 1rem;
+            width: 180px;
+            padding:1rem 0rem;
+            /* margin-left: -1rem; */
+        }
+        .text_data_add article:nth-child(3n){
+            margin-left: 2rem;
         }
         .text_data_add article h2{
             font-size: 1.5rem;
             font-weight:400;
+            width: 90%;
         }
         .text_data_add article small{
             color: #888888;
             font-size: 1rem;
+           
         }
         
 
-     form{
-            display: flex;
-            flex-direction: column;
+        form{
+            display:flex;
+             flex-direction: column;
+             width:90%;
+             gap: 0.5rem;
+        }
+        form input{
+            height: 2.5rem;
+            outline: none;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 500;   
+            padding-left:0.5rem;
+        }
+        form textarea{
+            outline: none;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding:0.5rem 0.5rem ;
+        }
+        form .btn{
+            width: 30%;
+            height: 2.5rem;
+            background: #1eb2ab;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            outline: none;
+            border: none;
+            border-radius:10px;
+            font-size: 1.2rem;
+        }
+        form .btn:hover{
+            background: transparent;
+            border:3px solid #1eb2ab;
+        }
+
+        @media screen and (max-width:400px){
+            .contact_container{
+                padding:2rem 2rem;
+            }   
         }
