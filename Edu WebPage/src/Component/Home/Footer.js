@@ -1,6 +1,7 @@
 import React from 'react'
 import {BsTwitter,BsInstagram} from 'react-icons/bs';
 import {FiFacebook} from 'react-icons/fi';
+
 const Footer = () => {
   return (
              
@@ -49,6 +50,7 @@ const Footer = () => {
                                   <p>info@student.portal.edu.pk</p>
                               </article>
                      </div>
+                     
                      
       </div>
   )

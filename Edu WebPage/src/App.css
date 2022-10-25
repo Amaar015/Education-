@@ -31,10 +31,10 @@
                     
 }
 .navbar ul li a:hover{
-                    color: #1eb2ab;
+                    color:  #00bdd2;
 }
 .start{
-                    background: #1eb2ab;
+                    background:  #00bdd2;
                     padding: 30px 70px;
                     color: #fff;
                     /* font-weight: bold; */
@@ -174,6 +174,7 @@ margin-left: 0rem;
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
+    color:  #00bdd2;
     transition: all 0.4s ease-in-out;
 
 }
@@ -222,7 +223,7 @@ margin-top: 8px;
                    font-size: 40px;
 }
 .About_home_content .about_heading h4{
-    color: #1eb2ab;
+    color:  #00bdd2;
 }
 .About_home_content article{
              display: flex;
@@ -237,7 +238,7 @@ margin-top: 8px;
              cursor: pointer;
 }
 .About_home_content article:hover{
-    background-color: #1eb2ab;
+    background-color:  #00bdd2;
 }
 
 .About_home_content article .icon{
@@ -251,7 +252,7 @@ margin-top: 8px;
 .About_home_content article .icon .icons{
                    font-size: 50px;
                    margin:0 20px;
-                   color: #1eb2ab;
+                   color: #00bdd2;
                    transition: all 0.3s ease-in-out;
 }
 .About_home_content article:hover .icon .icons{
@@ -360,7 +361,7 @@ margin-top: 8px;
 .online p,.course p,
 #team p ,.blog p,.package p
 {
-    color: #1eb2ab;
+    color: #00bdd2;
     font-size: 20px;
     margin-left: 45%;
 }
@@ -413,7 +414,7 @@ box-shadow: none;
     width: 70px;
     height: 50px;
     color:white;
-    background: #1eb2ab;
+    background:  #00bdd2;
     border-radius: 50%;
 
 }
@@ -424,7 +425,7 @@ box-shadow: none;
 }
 .Online_course ul{
     display: flex;
-    color: #1eb2ab;
+    color:  #00bdd2;
     margin: 30px 80px;
 }
 .Online_course ul li{
@@ -453,8 +454,8 @@ box-shadow: none;
     width: 220px;
     height: 50px;
     margin: 20px 40px;
-    border: 2px solid #1eb2ab;
-    color: #1eb2ab;
+    border: 2px solid  #00bdd2;
+    color:  #00bdd2;
     font-size: 18px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -462,7 +463,7 @@ box-shadow: none;
 }
 
 .Online_course button:hover{
-    background: #1eb2ab;
+    background: #00bdd2;
     color: #fff;
 }
 
@@ -492,10 +493,10 @@ padding-bottom:4rem;
 
 }
 .course_container:hover{
-    background: #1eb2ab;
+    background:  #00bdd2;
 }
 .course_container .course_icon{
-    color:  #1eb2ab;
+    color:  #00bdd2;
     font-size: 60px;
     margin-top: 20px;
     transition: all 0.3s ease;
@@ -522,7 +523,7 @@ padding-bottom:4rem;
     border: none;
     outline: none;
     background: #ebf4f5;
-    color: #1eb2ab;
+    color: #00bdd2;
     height: 30px;
     cursor: pointer;
 
@@ -574,7 +575,7 @@ padding-bottom:4rem;
 }
 
 .team:hover{
-    background:  #1eb2ab;
+    background:   #00bdd2;
 }
 
 .std_review{
@@ -662,7 +663,7 @@ box-shadow: none;
     font-weight: bold;
 }
 .blog_menu .blog_icon{
-    color: #1eb2ab;
+    color:  #00bdd2;
     margin-left: -0.8rem;
     font-size: 15px;
 
@@ -726,7 +727,7 @@ width: 150px;
 .Box h4{
     margin: 1rem 4.5rem;
     font-size: 30px;
-    color: #1eb2ab;
+    color:  #00bdd2;
 }
 
 .package_main .Box p{
@@ -742,15 +743,15 @@ width: 100%;
     margin: 2rem 1.5rem;
     font-size: 20px;
     background: transparent;
-    border: 2px solid #1eb2ab;
+    border: 2px solid  #00bdd2;
     cursor: pointer;
     transition: all 0.3s linear;
-    color: #1eb2ab;
+    color:  #00bdd2;
     font-weight: bold;
 
 }
 .Box button:hover{
-background: #1eb2ab;
+background:  #00bdd2;
 color: #fff;
 }
 
@@ -762,7 +763,7 @@ color: #fff;
     flex-wrap: wrap;
     width: 100%;
     height: 14rem;
-    background: #1eb2ab;
+    background:  #00bdd2;
     justify-content: center;
     align-items: center;
 
@@ -797,7 +798,7 @@ color: #fff;
     width: 500px;
     height: 40px;
     background: #fff;
-    border: 2px solid #1eb2ab;
+    border: 2px solid  #00bdd2;
 }
 
 
@@ -820,7 +821,7 @@ font-size: 43px;
 .footer .Footer_main h2{
     margin-top:-13px;
     font-size: 14px;
-    color: #1eb2ab;
+    color:  #00bdd2;
     
 }
 
@@ -836,7 +837,7 @@ font-size: 43px;
 }
 .footer .Footer_main .footer_social .icon{
     margin:0rem 0.6rem;
-    background: #1eb2ab;
+    background:  #00bdd2;
     color: #fff;
     width: 35px;
     height: 35px;
@@ -1457,7 +1458,7 @@ width: 270px;
     }    
     .navbar{
         margin: 0;
-        background-color: #1eb2ab;
+        background-color:  #00bdd2;
         position: relative;
     }
     .navbar ul.flexSB{
@@ -1481,7 +1482,7 @@ width: 270px;
         top: 10vh;
         left: 0;
         width: 100%;
-        background-color: #1eb2ab;
+        background-color:  #00bdd2;
         flex-direction: column;
     }
     a{
@@ -1679,7 +1680,7 @@ margin-left: 0.7rem;
     }
 .member_box:hover{
           box-shadow: none;
-          background:#1eb2ab;
+          background: #00bdd2;
 }
 .member_box .image{
     width: 100%;
@@ -1744,7 +1745,7 @@ margin-left: 0.7rem;
     cursor: pointer;
 }
 .member_box .social_link small:hover{
-    color: #1eb2ab;
+    color:  #00bdd2;
 }
 
 @media screen and (max-width:530px) {
@@ -1793,8 +1794,8 @@ margin-left: 0.7rem;
             
         }
         .map img{
-            width: 90%;
-            height: 90%;
+            width: 85%;
+            height: 80%;
         }
         .map .contact_form{
             flex: 1 1 20rem;
@@ -1855,7 +1856,7 @@ margin-left: 0.7rem;
         form .btn{
             width: 30%;
             height: 2.5rem;
-            background: #1eb2ab;
+            background: #00bdd2;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
             outline: none;
@@ -1865,11 +1866,17 @@ margin-left: 0.7rem;
         }
         form .btn:hover{
             background: transparent;
-            border:3px solid #1eb2ab;
+            border:3px solid #00bdd2;
         }
 
         @media screen and (max-width:400px){
             .contact_container{
                 padding:2rem 2rem;
             }   
+        }
+
+        /* Journal Section */ 
+         .blog_course{
+            background: #ebf4f5;
+            /* padding:1rem; */
         }
