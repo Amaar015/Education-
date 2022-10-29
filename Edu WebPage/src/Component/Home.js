@@ -1,6 +1,6 @@
 import React from 'react'
 import './../App.css';
-import {AiOutlineArrowRight} from 'react-icons/ai';
+// import {AiOutlineArrowRight} from 'react-icons/ai';
 import Navbar from './Navbar';
 import Header from './Home/Header';
 import Abouts from './Home/Abouts';
@@ -27,8 +27,8 @@ const Home = () => {
                                                     <p>For for away, behinds the words, mountains far from the countries
                                                             Pakistan and Iran. there live the blind tests</p>        
                                                <div className='buttons'>
-                                                            <button className='btn1'>Get Started Now <AiOutlineArrowRight/></button>
-                                                            <button className='btn2'>View Course <AiOutlineArrowRight/></button>
+                                                            {/* <button className='btn1'>Get Started Now <AiOutlineArrowRight/></button> */}
+                                                            {/* <button className='btn2'>View Course <AiOutlineArrowRight/></button> */}
                                                </div>
                                         </div>
                                         
